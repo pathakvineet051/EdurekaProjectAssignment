@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import commonLibs.contracts.IDropdown;
 
-public class DropDownControl implements IDropdown {
+public class CommonDropDownControl implements IDropdown {
 
 	private Select getDropDown(WebElement element) {
 		Select select = new Select(element);

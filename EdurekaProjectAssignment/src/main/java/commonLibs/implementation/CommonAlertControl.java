@@ -4,11 +4,11 @@ import org.openqa.selenium.WebDriver;
 
 import commonLibs.contracts.IAlert;
 
-public class AlertControl implements IAlert {
+public class CommonAlertControl implements IAlert {
 
 	private WebDriver driver;
 
-	AlertControl(WebDriver driver) {
+	CommonAlertControl(WebDriver driver) {
 		this.driver = driver;
 	}
 
